@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Script Copyright www.fornesia.com
-# Mod by shigeno
+# Mod by xD'Criz
 # ==========================
 # 
 
@@ -50,6 +50,6 @@ echo "------------------------------------------------" | lolcat
 
 echo "";
 
-echo "Mod by shigeno";
+echo "Mod by xD'Criz";
 
 echo "";
