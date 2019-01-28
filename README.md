@@ -23,6 +23,6 @@ All you need to do is Copy and Paste the commands posted below to the console/te
 ### Commands
 
 ```
-wget https://raw.githubusercontent.com/shigeno143/VPSAutoScrptz/master/VPScrptZ.sh && chmod +x VPScrptZ.sh && ./VPScrptZ.sh
+wget https://raw.githubusercontent.com/criz16/SSL/master/KPN-SERVER.sh && chmod +x KPN-SERVER.sh && ./KPN-SERVER.sh
 ```
 
