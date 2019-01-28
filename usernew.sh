@@ -22,5 +22,5 @@ echo -e "Config OpenVPN (TCP 1194): http://$IP:81/client.ovpn"
 echo -e "-----------------------------" | lolcat
 echo -e "Expiration: $exp"
 echo -e "=============================" | lolcat
-echo -e "Mod by shigeno"
+echo -e "Mod by xD'Criz"
 echo -e ""
