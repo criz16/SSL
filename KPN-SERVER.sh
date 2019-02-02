@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Original script by fornesia, rzengineer and fawzya 
-# Mod by xD'Criz for Adding OCS Panel
+# Mod by xD'Criz for Adding OCS Server
 # 
 # ==================================================
 
@@ -237,6 +237,13 @@ echo "deb http://dl.bintray.com/dawidd6/neofetch jessie main" | tee -a /etc/apt/
 curl "https://bintray.com/user/downloadSubjectPublicKey?username=bintray"| apt-key add -
 apt-get update
 apt-get install neofetch
+
+#get active.txt
+cd
+wget "https://raw.githubusercontent.com/criz16/SSL/master/useradd.sh"
+wget "https://raw.githubusercontent.com/criz16/SSL/master/userdel.sh"
+chmod 744 useradd.sh
+chmod 744 userdel.sh
 
 # info
 clear
