@@ -227,7 +227,7 @@ service openvpn restart
 service cron restart
 service ssh restart
 service dropbear restart
-service squid restart
+#service squid restart
 service webmin restart
 rm -rf ~/.bash_history && history -c
 echo "unset HISTFILE" >> /etc/profile
