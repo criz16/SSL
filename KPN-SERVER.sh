@@ -125,9 +125,9 @@ service dropbear restart
 # install squid3
 cd
 apt-get -y install squid3
-wget -O /etc/squid3/squid.conf "https://raw.githubusercontent.com/criz16/SSL/master/squid3.conf"
-sed -i $MYIP2 /etc/squid3/squid.conf;
-service squid3 restart
+wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/criz16/SSL/master/squid3.conf"
+sed -i $MYIP2 /etc/squid/squid.conf;
+service squid restart
 
 # install webmin
 cd
@@ -148,6 +148,11 @@ socket = r:TCP_NODELAY=1
 [dropbear]
 accept = 443
 connect = 127.0.0.1:3128
+
+[openvpn]
+accept = 8444
+connect = 127.0.0.1:1194
+
 
 END
 
