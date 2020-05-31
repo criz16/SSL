@@ -286,7 +286,7 @@ echo "Timezone : Asia/Manila (GMT +7)"  | tee -a log-install.txt
 echo "IPv6     : [off]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Original Script by Fornesia, Rzengineer & Fawzya"  | tee -a log-install.txt
-echo "Modified by shigeno"  | tee -a log-install.txt
+echo "Modified by Criz Romero"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
