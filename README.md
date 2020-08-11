@@ -23,6 +23,6 @@ All you need to do is Copy and Paste the commands posted below to the console/te
 ### Commands
 
 ```
-wget https://raw.githubusercontent.com/criz16/SSL/master/KPN-SERVER.sh && chmod +x KPN-SERVER.sh && ./KPN-SERVER.sh
+wget https://raw.githubusercontent.com/criz16/SSL/master/ssh.sh && chmod +x ssh.sh && ./ssh.sh
 ```
 
